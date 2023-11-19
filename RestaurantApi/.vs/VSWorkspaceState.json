@@ -10,6 +10,6 @@
     "\\Services\\CustomerService",
     "\\Services\\OrderService"
   ],
-  "SelectedNode": "\\RestaurantApi.sln",
+  "SelectedNode": "\\Services\\OrderService\\OrderService.cs",
   "PreviewInSolutionExplorer": false
 }

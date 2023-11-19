@@ -4,8 +4,8 @@
     <app-managersidebar></app-managersidebar>
     <div class="content w-100" style="overflow-x: scroll; height: 90vh;">
         <div class="product d-flex flex-wrap"> 
-            <div [ngClass]="{'red-card': item.items[0].ingredients.quantity < 10}" class="card" style="width: 21rem;" *ngFor="let item of productArray">
-                <img src="{{item.items[0].image}}" style="height: 20rem; width: 21rem;" class="card-img-top" alt="...">
+            <div [ngClass]="{'red-card': item.items[0].ingredients.quantity < 10}" class="card" style="width: 22rem;" *ngFor="let item of productArray">
+                <img src="{{item.items[0].image}}" style="height: 20rem; width: 22rem;" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3>₹ {{item.items[0].price}} </h3>
                     <h4 class="card-title">{{item.items[0].name}}</h4>
